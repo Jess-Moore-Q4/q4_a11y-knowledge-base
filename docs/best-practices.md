@@ -1,2 +1,9 @@
 # Best Practices
-## Headings
+
+## General Elements
+
+### Headings
+
+## Pages
+
+## Required Accessibility

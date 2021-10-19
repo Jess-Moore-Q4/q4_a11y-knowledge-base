@@ -1,1 +1,3 @@
+- [Automated Scans](./docs/automated-scans.md)
+- [Toolkit](./docs/toolkit.md)
 - [Best Practices](./docs/best-practices.md)
