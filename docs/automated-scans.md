@@ -1,18 +1,19 @@
 # Automated Scans
 
 ## Instructions
-Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sed vero maiores voluptas soluta expedita, numquam nesciunt dolores itaque veritatis deleniti ratione aut vitae vel, eaque tempore illo placeat molestias ducimus doloremque! Quod quibusdam eveniet reprehenderit ab illum, dignissimos, possimus ut minima porro mollitia iusto dicta ullam eum numquam dolor eaque tempora, animi velit itaque provident. Modi vitae sint libero?
-
-Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est perferendis quasi et, quae alias aliquid saepe. Quibusdam perspiciatis similique fugit eligendi corrupti eius, maxime vero quos at iusto quod animi, ratione delectus mollitia hic temporibus. Blanditiis dignissimos dolore, id iusto fugiat quasi eum quae harum aperiam ea iure minus velit impedit tenetur incidunt temporibus sequi debitis vero eius quo illum. Modi laudantium illum sed consequatur ut quae iure expedita architecto saepe possimus nihil, minus doloribus voluptatem consectetur voluptas quis iste!
-
-1. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga atque eveniet expedita minus magni optio.
-
-2. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem sed vero maiores voluptas soluta expedita, numquam nesciunt dolores itaque veritatis deleniti ratione aut vitae vel.
 
 ## False Positives
 | Scan   | Issue          | Explanation |
-|:------:|:------------:|-------------|
-| ASLint | SVG accessibility features | Dismiss if non-text content is pure decoration, is used only for visual formatting, or is not presented to users, then it is implemented in a way that it can be ignored by assistive technology |
-| ASLint | Form input element is missing a label | Labels are not required for submit inputs |
-| equal-access | Table has no headers identified | If the issue flagged is for the email alerts checkboxes this can be dismissed if the table contains role=”presentation”|
+|--------|----------------|-------------|
+| ASLint | SVG accessibility features | According to the [WCAG](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value#sufficient), "Text or images of text that are part of an inactive user interface component, that are pure decoration, that are not visible to anyone, or that are part of a picture that contains significant other visual content, have no contrast requirement." |
+| ASLint | Form `<input>` element is missing a label | Labels are not required for submit inputs |
+| equal-access | Table has no headers identified | If the issue flagged is for the email alerts checkboxes this can be dismissed if the table contains role=”presentation” |
+| equal-access | The input element does not have an associated visible label | This issue appears even if inputs have an aria label. According to the [WCAG](https://www.w3.org/WAI/WCAG21/Understanding/name-role-value#sufficient), aria-labels are a sufficient alternative |
+| equal-access | The WAI-ARIA role or attribute is not valid for the specified element | During manual testing, our accessibility partner, Essential Accessibility has specifically asked for the following roles to be on the following elements:<ul><li>role=”status”, search results `<h2>`</li><li>aria-required, email alert checkboxes</li></ul>Dismiss if part of stock chart SVG as the graphic cannot be reached by screenreader / keyboard. Accessible data table has been provided |
+| equal-access | `<label>` is associated with an inappropriate element | If flagged on the grouping of email alert checkboxes, and the element with the ID that matches the for attribute exists, this can be dismissed |
+| equal-access | Check the keyboard focus indicator is highly visible when using CSS elements for border or outline | Dismiss for svg elements of the stock chart (not reachable via keyboard, and accessible data table has been provided). <br>Dismiss if you’ve visually confirmed a focus state is visible. |
+| equal-access | Interactive component does not have a programmatically associated name | Dismiss of part of the stock chart SVG. Graphic not reachable by keyboard / screen reader or accessible data table has been provided |
+| equal-access | Accessible name does not match or contain the visible label text | Dismiss if the aria-label does not match because it’s being used to provide more context to an otherwise vague link (ie “Read More”) <br/><br/>Dismiss if aria-label is being used to describe a link that is an image |
+| equal-access | An element with a "region" role does not have a label | Dismiss if using described-by attribute |
+
 
