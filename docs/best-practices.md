@@ -49,6 +49,26 @@
 <button class="disclaimer_link"> Copyright © 2021, S&P Global Market Intelligence (and its affiliates as applicable). All rights reserved. </button>
 ```
 
+### Modals / Popups
+- Triggers should be a `<button>` not a `<a>`
+
+- The User should be able to tab to the close button. 
+
+- The close button should close the modal when ESC key is pressed.
+
+- When close button is selected, once the modal is closed, the focus should return to the trigger. This can be done using the beforeClose fancybox option. 
+
+- Focus must be trapped within the modal when open.
+
+- When the modal is opened, focus must be on the first element which can be focused on or on the entire modal.
+
+- Related Success Criteria: 2.4.3 A
+
+- Resources: 
+    - https://hiddedevries.nl/en/blog/2017-01-29-using-javascript-to-trap-focus-in-an-element
+    - https://www.nomensa.com/blog/2014/how-improve-accessibility-overlay-windows-part-1
+
+
 ### Tables
 - Tables must contain a `<caption>` or have an aria-describedby attribute. Providing a `<caption>` should be the first option. 
 
@@ -61,4 +81,21 @@
     - Solution use `scope=”col”` and `scope=”row”`
 
 - For responsive views and zoom (200% and 400%) make sure that the table is responsive and does not exceed the dimensions of the screen. (1.4.10 AA)
+
+### Selects
+- Should have a default option defined using `<option>`’s selected [attribute](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/option#attr-selected).
+
+### Headings
+- Using the “H” key is the most common way screenreader users navigate a page (similar to how sighted users skim headings before finding the applicable content they want to read)
+
+- Screen readers can traverse through headings with the “H” key or the number keys 1-6 for a specific level of heading. By applying a role attribute to headings (ie role=”button”), the ability to navigate to the element using these methods is removed.
+
+### aria-label vs aria-labelledby
+- aria-label
+    - String that labels the current element
+    - Use when a relative text label is not visible on the screen
+
+- aria-labbeledby
+    - Associates static text with an object (provide id or multiple ids of labelling elements)
+    - Use when there is a visible relative label
 
