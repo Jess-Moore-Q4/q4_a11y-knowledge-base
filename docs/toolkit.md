@@ -12,3 +12,5 @@
 #### Voiceover (Mac / iOS)
 
 ## Color Contrast Checkers
+- [WCAG color contrast checker chrome extension](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en)
+- [Text on image color contrast checker](http://www.brandwood.com/a11y/)
