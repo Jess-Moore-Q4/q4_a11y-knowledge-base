@@ -1,0 +1,14 @@
+# Manual Evaluations
+| Name   | CMS          | % Complete | Evaluation |
+|:------:|:------------:|:----------:|------------|
+| [WallStreet](https://wallstreet.q4ir.com/) | [studioclassic2018na1.q4web.com](https://studioclassic2018na1.s4.q4web.com/admin/) | 100% | - |
+| [Delta](https://delta.q4ir.com/) | [studioclassic2018na2.q4web.com](https://studioclassic2018na2.s4.q4web.com/admin/) | 96% | [Link](https://dashboard.essentialaccessibility.com/manual-evaluations/61705aa4e0f70809b12c5aec?linkedPropertyData=5fc8ac821b5947660d7fe16e%7C5eb40a6cddbfa8335b185ab1) |
+| [Cross](https://cross.q4ir.com/) | [studioclassic2018na3.s4.q4web.com](https://studioclassic2018na4.s4.q4web.com/admin/) | 100% | - |
+| [Arbitrage](https://arbitrage.q4ir.com/) | [studioclassic2018na4.s4.q4web.com](https://studioclassic2018na3.s4.q4web.com/admin/) | 100% | - |
+| [REIT](http://studioclassic2020na5.q4web.com/) | [studioclassic2020na5.s4.q4web.com](https://studioclassic2020na5.s4.q4web.com/admin/) | 63% | [Link](https://dashboard.essentialaccessibility.com/manual-evaluations/60bfee8f4b1d4f86225d5154?linkedPropertyData=608308e1913aa94b5ba17a8e%7C5eb40a6cddbfa8335b185ab1) |
+| [Bank](http://studioclassic2020na5.q4web.com/) | [studioclassic2020na6.s4.q4web.com](https://studioclassic2020na6.s4.q4web.com/admin/) | 90% | [Link](https://dashboard.essentialaccessibility.com/manual-evaluations/60a5444e8827c32243533e74?linkedPropertyData=608308fe913aa978a2a17a8f%7C5eb40a6cddbfa8335b185ab1) |
+| [Bank - S&P widget pages](http://studioclassic2020na5.q4web.com/) | [studioclassic2020na6.s4.q4web.com](https://studioclassic2020na6.s4.q4web.com/admin/) | 0% | [Link](https://dashboard.essentialaccessibility.com/manual-evaluations/611148ed35b1485fbc955e65?linkedPropertyData=608308fe913aa978a2a17a8f%7C5eb40a6cddbfa8335b185ab1) |
+| [SPAC](http://studiospac.q4web.com/) | [studiospac.s4.q4web.com](https://studiospac.s4.q4web.com/admin/) | 0% | [Link](https://dashboard.essentialaccessibility.com/manual-evaluations?linkedPropertyData=613240d39444c9c94e507be0%7C5eb40a6cddbfa8335b185ab1) |
+| [Newsroom](https://studionewsroom.q4inc.com/) | [newsclassic2019na1demo.s4.q4web.com](https://newsclassic2019na1demo.s4.q4web.com/admin/) | 98% | - |
+| [ESG](https://esg.q4ir.com/) | [esgtheme2021.s4.q4web.com](https://esgtheme2021.s4.q4web.com/admin) | 0% | [Link](https://dashboard.essentialaccessibility.com/manual-evaluations/6140dd292b9db52432584ebf?linkedPropertyData=613232b99645a10743a1c7db%7C5eb40a6cddbfa8335b185ab1) |
+| [Q4.Inc](https://www.q4inc.com/) | [q4inc2020corp.s4.q4web.com](https://q4inc2020corp.s4.q4web.com/admin/) | 85% | - |
