@@ -1,6 +1,38 @@
 # Automated Scans
 
-## Instructions
+## Scanner Instructions
+To conduct an internal scan using EssentialAccessibility's automated scanning tool:
+
+1. Log into the [EA dashboard](https://dashboard.essentialaccessibility.com/) with your account
+
+2. Ensure you are on the correct digital property - on the left-menu under "Digital Property", select the `Q4 Client Sites > Default` property - then click "Run Automated Scan" from the same left-menu
+
+3. From the "Run Automated Scan" landing page, click the "Setup advanced scan" button
+
+4. Follow the form prompts to fill out the required fields:
+    - Scan tag should be `default`
+
+    - Select "List of pages" to scan multiple pages."Crawl a website" is not reccomended as the scanner will include each individual details pages (ie press releases)
+
+5. **Optional:** Add authentication details to scan previews by completing the following:
+    1. Change the Authentication type select to `Secure web authentication`
+
+    2. User Name Fields:
+        - Your CMS User Name
+        - HTML Field Selector: `#txtUserName`
+
+    3. Passowrd Fields:
+        - Your CMS Password
+        - HTML Field Selector: `#txtPassword`
+
+    4. HTML submit button selector: `#btnSubmit`
+
+    5. HTML success element selector: `#pageClass`
+
+6. Ensure that “Accessibility”, “WCAG 2.1 Level AA” and “Desktop” are selected (will be by default), then click “Run Scan”
+
+7. Scan will appear in the list of scans under the "Scans" tab of the left-menu, the results will be available by clicking the "Scan results" button once complete
+
 
 ## False Positives
 | Accessibility Testing Tool | Issue          | Explanation |
