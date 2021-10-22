@@ -50,7 +50,7 @@
 ```
 
 ### Tables
--Tables must contain a `<caption>` or have an aria-describedby attribute. Providing a `<caption>` should be the first option. 
+- Tables must contain a `<caption>` or have an aria-describedby attribute. Providing a `<caption>` should be the first option. 
 
 - Don’t use tables for presentation purposes. An example is the email alert checkboxes, in which case use `role=”presentation”`
 
