@@ -1,6 +1,6 @@
-# Automated Scans
+# Automated Scanner
 
-## Scanner Instructions
+## Instructions
 To conduct an internal scan using EssentialAccessibility's automated scanning tool:
 
 1. Log into the [EA dashboard](https://dashboard.essentialaccessibility.com/) with your account
