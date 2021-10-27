@@ -1,4 +1,4 @@
-# Manual Evaluations
+# Theme Conformance
 | Name   | CMS          | % Complete | Evaluation |
 |:------:|:------------:|:----------:|------------|
 | [WallStreet](https://wallstreet.q4ir.com/) | [studioclassic2018na1.q4web.com](https://studioclassic2018na1.s4.q4web.com/admin/) | 100% | - |
