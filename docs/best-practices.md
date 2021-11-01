@@ -1,5 +1,12 @@
 # Best Practices
 
+# Quick Wins
+A list of items that takes minimal effort and can be used today. 
+- Sites should have a functioning skip link.
+- Sites should have a consistent focus outline.
+- Each page should have a logical heading structure.
+- Sites should be using the most recent widget versions.
+
 ## Common Scenarios
 
 ### Embedded Iframes 
