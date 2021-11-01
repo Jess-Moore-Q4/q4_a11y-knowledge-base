@@ -1,10 +1,7 @@
 # Home
 
-## Lorem Ipsum
+This knowledgebase serves as a resource for all things accessibility when it comes to Q4 Studio.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+For Q4 initiatives for accessibility please refer to [Q4's Internal FAQ](https://docs.google.com/document/d/1usDiz-pg6HPa7BR4T3R0PoJtLS55OTG3Lh2oIGtLgBE/).
 
-## Lorem Ipsum
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
+If you have any questions or would like to contribute, please reach out The Council (squad).
