@@ -14,7 +14,7 @@ To conduct an internal scan using EssentialAccessibility's automated scanning to
 
     - Select "List of pages" to scan multiple pages."Crawl a website" is not reccomended as the scanner will include each individual details pages (ie press releases)
 
-5. **Optional:** Add authentication details to scan previews by completing the following:
+5. **Optional:** Add authentication details to scan previews by completing the following (note this does not work with the *Single Sign-On* login screen):
     1. Change the Authentication type select to `Secure web authentication`
 
     2. User Name Fields:
