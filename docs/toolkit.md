@@ -25,3 +25,6 @@
 - [WCAG color contrast checker chrome extension](https://chrome.google.com/webstore/detail/wcag-color-contrast-check/plnahcmalebffmaghcpcmpaciebdhgdf?hl=en)
 
 - [Text on image color contrast checker](http://www.brandwood.com/a11y/)
+
+## Heading Structure Checkers
+- [HeadingsMap chrome extenstion](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi?hl=en)
